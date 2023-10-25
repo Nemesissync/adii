@@ -112,3 +112,31 @@ body{
         font-size: .5rem;
     }
 }
+@media screen and (max-width: 768px) {
+    .greetings {
+        font-size: 4rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .greetings {
+        font-size: 3rem;
+    }
+
+    .description {
+        font-size: 1rem;
+        max-width: 300px;
+    }
+
+    .message {
+        font-size: 16px;
+    }
+
+    .button a {
+        font-size: 0.8rem;
+    }
+}
